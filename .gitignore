@@ -1,0 +1,9 @@
+*~
+*.swp
+*.pyc
+*.backup
+TODO
+pagetables
+coarsetables
+hex
+kernel.log
