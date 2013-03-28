@@ -68,7 +68,6 @@ def dump_lv2table(fd):
 				flags+="S"
 			if not page&0x800: #non-Global
 				flags+="G"
-
 			print "0x%.5x|%s"%((page>>12),flags)
 		addr+=1
 fd=open(sys.argv[1])
